@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
-<script>
-alert ("Hello World");
+<script src="Basic_Javascript_1.js">
 </script>
+
+<body>
+	<button onclick="My_First_Function()">
+		Click Me!
+	</button>
+	<p id="Irish"></p>
+<script>
+	function My_First_Function() {
+		var String = "Kiss me, Im Irish!";
+		var result = String.fontcolor("Green");
+		document.getElementById("Irish").innerHTML =
+		result;
+	}
+</script>
+	<p><font color="darkred" face="Arial" size="6"> <b>Arial, this color is red</b></font><p>
+	<p><font color="0000FF" face"Roboto" size="3"> <i>This is blue</i> </font>
+		<font size=18><u> this is BIG </u></font>
+	<p>
+</body>
 </html>
